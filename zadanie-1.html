@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <h1>Форма регистрации на сайте</h1>
+    <h1>ФОРМА РЕГИСТРАЦИИ НА САЙТЕ</h1>
     <!--<nav>
       <a href="#" title="На главную">На главную</a>
     </nav>-->
@@ -19,10 +19,11 @@
       <h2>Добро пожаловать на наш сайт!</h2>
        <form action="/signup" method="POST">
         <fieldset class="account-info">
+          <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
-          <input type="text" name="first_name">
+          <input type="text" name="first_name" required="required" >
           <label>Фамилия</label>
-          <input type="text" name="last_name">
+          <input type="text" name="last_name" required="required" >
           <label>Email</label>
           <input type="text" required="required" class="email notnull">
           <label>Телефон</label>
@@ -40,18 +41,18 @@
               <option>США</option>
             </select>
           <label>Пароль</label>
-          <input type="password" name="password">
+          <input type="password" name="password" required="required">
           <label>Подтвердите пароль</label>
-          <input type="password" name="password_confirm">
+          <input type="password" name="password_confirm" required="required">
           
         </fieldset>
         <fieldset class="account-action">
           <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
               href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
-              услуги</a></label>
-              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в
-                соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
-                  обработке персональных данных</a></label>
+              услуги</a></label><br>
+              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных 
+                  данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
+                  обработке персональных данных</a></label><br>
           <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
           </fieldset>
       </form>
@@ -61,7 +62,7 @@
     </aside>-->
   </main>
   <footer class="foot">
-  &#169; 2021, Официальный сайт Иванова Ивана Ивановича
+  &#169; 2021, Официальный сайт Войтова Валерия Григорьевича
   </footer>
 </body>
 </html>
