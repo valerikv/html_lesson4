@@ -8,26 +8,25 @@
   <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
+
   <header>
     <h1>ФОРМА РЕГИСТРАЦИИ НА САЙТЕ</h1>
-    <!--<nav>
-      <a href="#" title="На главную">На главную</a>
-    </nav>-->
   </header>
+  
   <main>
     <article class="c1">
       <h2>Добро пожаловать на наш сайт!</h2>
        <form action="/signup" method="POST">
         <fieldset class="account-info">
-          <legend>Для регистрации введите свои данные:</legend>
-          <label>Имя</label>
-          <input type="text" name="first_name" required="required" >
-          <label>Фамилия</label>
-          <input type="text" name="last_name" required="required" >
-          <label>Email</label>
-          <input type="text" required="required" class="email notnull">
-          <label>Телефон</label>
-          <input type="text" name="phone" required="required" class="notnull"
+           <legend>Для регистрации введите свои данные:</legend>
+              <label>Имя</label>
+              <input type="text" name="first_name" required="required" >
+              <label>Фамилия</label>
+              <input type="text" name="last_name" required="required" >
+              <label>Email</label>
+              <input type="text" required="required" class="email notnull">
+              <label>Телефон</label>
+              <input type="text" name="phone" required="required" class="notnull"
             placeholder="+375 (код оператора) 111-11-11">
           <label>Страна</label>
             <select name="country">
@@ -47,22 +46,19 @@
           
         </fieldset>
         <fieldset class="account-action">
-          <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
+          <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для подтверждения согласия <a
               href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
               услуги</a></label><br>
-              <label><input type="checkbox" name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных 
+              <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для согласия на обработку персональных 
                   данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
                   обработке персональных данных</a></label><br>
-          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+            <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
           </fieldset>
-      </form>
-    </article>
-    <!--<aside>
-      Тут могла быть ваша реклама
-    </aside>-->
-  </main>
-  <footer class="foot">
-  &#169; 2021, Официальный сайт Войтова Валерия Григорьевича
+        </form>
+      </article>
+     </main>
+    <footer class="foot">
+    &#169; 2021, Официальный сайт Войтова Валерия Григорьевича
   </footer>
-</body>
+ </body>
 </html>
